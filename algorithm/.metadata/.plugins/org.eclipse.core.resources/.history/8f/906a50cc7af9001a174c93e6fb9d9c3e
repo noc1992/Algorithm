@@ -1,0 +1,10 @@
+import recursion.Power;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		Power a = new Power();
+		System.out.println(a.power(3, 3));
+	}
+
+}

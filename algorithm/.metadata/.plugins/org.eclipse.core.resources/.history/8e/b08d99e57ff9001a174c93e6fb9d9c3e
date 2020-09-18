@@ -1,0 +1,26 @@
+import recursion.Power;
+import recursion.printChar;
+import recursion.printInBinary;
+import recursion.search;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		Power a = new Power();
+		System.out.println(a.power(3, 3));
+		printChar b = new printChar();
+		b.printChars("æ»≥Á«œººø‰");
+		b.printCharsReverse("æ»≥Á«œººø‰");
+		System.out.println();
+		printInBinary c = new printInBinary();
+		c.printInBinary(20);
+		
+		System.out.println(" ");
+		int[] data = {1, 3, 17, 20, 4, 29};
+		search d = new search();
+		System.out.println(d.search(data, 0, data.length, 4));
+		
+		
+	}
+
+}

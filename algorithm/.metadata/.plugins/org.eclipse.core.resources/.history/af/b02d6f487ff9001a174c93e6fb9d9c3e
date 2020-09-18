@@ -1,0 +1,18 @@
+import recursion.Power;
+import recursion.printChar;
+import recursion.printInBinary;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		Power a = new Power();
+		System.out.println(a.power(3, 3));
+		printChar b = new printChar();
+		b.printChars("æ»≥Á«œººø‰");
+		b.printCharsReverse("æ»≥Á«œººø‰");
+		System.out.println();
+		printInBinary c = new printInBinary();
+		c.printInBinary(20);
+	}
+
+}
